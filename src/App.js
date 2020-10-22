@@ -29,6 +29,7 @@ class App extends Component {
             Click to change user count
           </button>
           <p>{this.props.items.length}</p>
+          <p>{this.props.users.length}</p>
       </div>
     );
   }
